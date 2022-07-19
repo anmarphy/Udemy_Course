@@ -62,3 +62,21 @@ print(mutable_greeting)
 greeting="How are you {name}? How is your {moment} going on"
 morning_greeting=greeting.format(name='Marce', moment='morning')
 print(morning_greeting)
+
+
+my_name='Marcela'
+your_name=input('What is your name?')
+
+print("Hi {}, it's {}".format(your_name, my_name))
+
+age=input('How old are you?')
+print(f"Your age in months is {age*12}") ##Repet the string 12 times
+
+print(f"Your age in months is {int(age)*12}")
+
+age=int(input('How old are you?'))
+print(f"Your age in months is {age*12}")
+
+age=int(input('How old are you?'))
+months = age*12 ## This is a better practice
+print(f"Your age in months is {months}")
